@@ -276,7 +276,7 @@ var saveTasks = function() {
 // loads tasks from localStorage
 var loadTasks = function() {
     var savedTasks = localStorage.getItem("tasks");
-    
+
     // if there are no tasks, set to empty array and return out of function
     if (!savedTasks) {
         return false;
